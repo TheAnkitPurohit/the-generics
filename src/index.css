@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&family=Raleway:wght@300;400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+
+header {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url("../public/images/header-background.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 30px;
+  font-family: "Raleway", sans-serif;
+}
+
+.heading-font {
+  font-family: "Metal Mania", cursive;
+}
+
+@tailwind utilities;
